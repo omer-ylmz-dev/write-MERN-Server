@@ -10,7 +10,7 @@ import userRouter from "./routes/user.js";
 
 app.use(cors({
 	origin: [process.env.CLIENT_URL],
-	methods: ["GET", "POST", "PUT", "DELETE"],
+	methods: ["GET", "POST", "PATCH", "PUT", "DELETE"],
 	credentials: true
 }));
 
